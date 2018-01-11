@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Einführung in chinesische Grammatik (中文语法入门)
+header-img: "img/post-bg-wall.jpg"
 ---
 
-In diesem Post bespreche ich Grammatikalische Tücken und eher absonderliche Strukturen in der Chinesischen Grammatik. Die meisten Leute im Internet die jemals etwas Chinesisch gelernt haben, sind sich einig das die Chinesische Grammatik (verglichen zu z.b. Japanisch oder Koreanisch) weitaus simpler ist. Das ist zwar der Fall für die Anfänger Strukturen und generell Standard Sätze, aber es existieren sehr viele Unregelmäßigkeiten im System die das Lernen der Grammatik erschweren. 
+In diesem Post bespreche ich grammatikalische Tücken und eher absonderliche Strukturen in der Chinesischen Grammatik. Die meisten Leute im Internet die jemals etwas Chinesisch gelernt haben, sind sich einig das die Chinesische Grammatik (verglichen zu z.b. Japanisch oder Koreanisch) weitaus simpler ist. Das ist zwar der Fall für die Anfänger Strukturen und generell Standard Sätze, aber es existieren sehr viele Unregelmäßigkeiten im System die das Lernen der Grammatik erschweren. 
 
 Ein simples Beispiel ist die Struktur für Richtungsangebende Sätze:
 
