@@ -37,7 +37,7 @@ Most default features of TLP are alreayd good enough to achieve reasonable batte
 
 Sometimes it is wise to discontinue the automatic power management (e.g. high latency or slow downloads). If you are using the default Networkmanager from Ubuntu/Debian, then consult the file ``/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf``. The line ``wifi.powersave = 3`` should be changed to ``2`` (``2`` = Off, ``3`` = On).
 
-# NVME
+# NVME (Obsolute with Kernel 4.11+ )
 
 As already pointed out by the [Archwiki](https://wiki.archlinux.org/index.php/Dell_XPS_13_(9360)) entry for this machine, the NVME SSD driver has a powersaving feature, which is not enabled by any current mainline kernel. In order to enable it, one must recompile the given kernel
 E.g. in order to compile kernel 4.9.9, follow the following:
