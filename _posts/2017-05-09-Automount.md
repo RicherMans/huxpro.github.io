@@ -31,3 +31,23 @@ Another possible solution is to turn the switch `AutoMount=true` to `AutoMount=f
 ```
 /usr/share/gvfs/mounts/trash.mount
 ```
+
+# Another alternative: Autofs
+
+While `sshfs` is powerful indeed, I experienced quite some problems regarding the auto dismount function. Especially when I previously opened any `sshfs` mounted folder in sublime and then disconnected, the remote sshfs will hang. This is pretty frustrating, since even restarts will not work (but a restart of sshfs will do `sudo systemctl restart sshfs`).
+
+Another alternative is [autofs](https://wiki.archlinux.org/index.php/autofs), which provided much more functionality compared to `sshfs`, e.g. ftp, nfs, samba support.
+
+For a simple config, follow the following instructions:
+
+1. Install autofs. In arch its just `sudo pacman -S autofs`
+2. [Autofs](https://wiki.archlinux.org/index.php/autofs) generates couple of files in `/etc/autofs/`. At first, open the file `/etc/autofs/auto.master` with e.g., vim `sudo vim /etc/autofs/auto.master`. I personally commented the lines `/net -hosts` and `/misc/ /etc/autofs/auto.misc` since I dont use any misc formats or mounting points.
+3. At the end of the opened `auto.master` file, add a line: `/-      /etc/autofs/auto.ssh    uid=1000,gid=1000,--timeout=10,--ghost`. The parameters mean:
+    * `/- ` Mount absolute path (given in the `auto.ssh` config). If `/-` is replaced with e.g., `/ssh/`, all mounts in the `auto.ssh` config will be relatively mounted to `/ssh/`. I personally have two mounts which need to be placed in the root dir, thus need to use `/-`.
+    * `uid=1000,gid=1000` Mount as root
+    * `--timeout` Time until the mount will be dismounted (if a disconnect occured)
+    * `--ghost` Keep a "dummy" folder as the mount folder, even if the directory is not mounted. This is very helpful for sublime.
+4. Open the file `/etc/autofs/auto.ssh`, where you can configure your ssh mounts. The following syntax is used in this file:
+    `/MOUNTPOINT     -fstype=fuse,rw,allow_other,reconnect,no_check_root,compression=yes,port=YOURPORT,IdentityFile=/home/YOURUSER/.ssh/id_rsa :sshfs\#REMOTEUSER@SERVER\:/REMOTEDIR`
+    You can add multiple ssh mounts in this file. Note that in order to work, your user needs to have password-less login enabled (`ssh-copy-id`), as well as the necessity that the root user at least logged into the server once ( to obtain the RSA fingerprint )
+5. Enable/Start autofs `sudo systemctl start autofs`, `sudo systemctl enable autofs` and enjoy! The mounts will be at the paths specified in `auto.ssh`  
