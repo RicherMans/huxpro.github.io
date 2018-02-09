@@ -29,7 +29,7 @@ header-img: "img/post-bg-wall.jpg"
 此外，定语可以描述多种多样的意思：
 
 1. 他的孩子非常出色
-    * 表领书
+    * 表领属
 2. 桌子上的地图上我刚买的
     * 表处所
 3. 你昨天说的那件事，老师知道了
@@ -39,7 +39,7 @@ header-img: "img/post-bg-wall.jpg"
 
 # 定语的位置
 
-汉语中，定于的位置一般位于中心语之前，譬如:
+汉语中，定语的位置一般位于中心语之前，譬如:
 1. 他是*一个非常漂亮*的妹纸
 2. 这是*一本毛泽东写*的书
 3. 这是*一本关于世界历史*的杂志
@@ -56,9 +56,9 @@ Die position des Attributs ist manchmal nicht in der selben stelle wie im Deutsc
 | **Das vor unserer Schule stehende** Restaurant | **我们学校前边**的餐厅   |
 
 
-# 定于和”的“的使用
+# 定语和”的“的使用
 
-这个问题，主要涉及定于后要不要用结构助词”的“的问题. 有的时候汉语中，我们一般不用“的”并且有情况必须用“的”，因此用“的”似乎是很灵活的.
+这个问题，主要涉及定语后要不要用结构助词”的“的问题. 有的时候汉语中，我们一般不用“的”并且有情况必须用“的”，因此用“的”似乎是很灵活的.
 
 如下的例子都不对：
 
@@ -68,7 +68,7 @@ Die position des Attributs ist manchmal nicht in der selben stelle wie im Deutsc
 4. 这三本的书我全看了
 5. 一眼望去是一片绿油油麦田
 
-那如何不对？汉语中定于后的“的”到底有没有规律呢？
+那如何不对？汉语中定语后的“的”到底有没有规律呢？
 
 ## 必须用“的”的情况
 
@@ -105,7 +105,7 @@ Die position des Attributs ist manchmal nicht in der selben stelle wie im Deutsc
     
     |     正确的句子     |    偏误的句子    |
     |--------------------|------------------|
-    | 那是一双冰晶的双手 | 那是一双冰晶双手 |
+    | 那是一双冰凉的双手 | 那是一双冰凉双手 |
     | 那是一个漆黑的夜晚 | 那是一个漆黑夜晚 |
 
 6. 指示代词“这个”，“那个”等
@@ -118,7 +118,7 @@ Die position des Attributs ist manchmal nicht in der selben stelle wie im Deutsc
 
 ## 不能用“的”的情况
 
-有些定于和中心与之间一定不能用“的”。常见有两种：
+有些定语和中心与之间一定不能用“的”。常见有两种：
 
 1. 数量词
   
