@@ -177,7 +177,7 @@ Die position des Attributs ist manchmal nicht in der selben stelle wie im Deutsc
 * 这是我的书　（偏误：这是我书）
 * 他的爸爸已经退休了　/ 他爸爸已经退休了
 * 他们的单位已经放假了　/　他们单位已经放假了
-* 他的行李比我的中　(偏误：他姓李比我重　)
+* 他的行李比我的重　(偏误：他姓李比我重　)
 * 你们的工厂效益怎么样？ / 你们工厂效益怎么样
 
 
