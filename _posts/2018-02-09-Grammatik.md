@@ -50,10 +50,10 @@ Die position des Attributs ist manchmal nicht in der selben stelle wie im Deutsc
 
 |                  Deutsch                   |      Chinesisch      |
 |--------------------------------------------|----------------------|
-| Das Buch ist *auf dem Regal*               | *书架上*的书         |
-| *Ein aus Deutschland kommender* Mann       | *一个来自德国*的男人 |
-| Ein Student von *der Peking Universitaet*  | *北京大学*的一个学生 |
-| *Das vor unserer Schule stehende* Restaurant | *我们学校前边*的餐厅   |
+| Das Buch ist **auf dem Regal**               | **书架上**的书         |
+| **Ein aus Deutschland kommender** Mann       | **一个来自德国**的男人 |
+| Ein Student von *der Peking Universitaet*  | **北京大学**的一个学生 |
+| **Das vor unserer Schule stehende** Restaurant | **我们学校前边**的餐厅   |
 
 
 # 定于和”的“的使用
