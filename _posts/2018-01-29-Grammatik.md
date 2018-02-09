@@ -25,6 +25,7 @@ Wenn die Struktur "Verb + 下来 /下去" verwendet wird, kann der Satz die beud
 
 ![Die beiden Zeitformen 下去 und 下来 im Vergleich]({{ site.url }}/img/xiaqu.png){:class="img-responsive"}
 
+
 Beispiele:
 
 * 虽然我已经遍体鳞伤，但我会坚持下去 (Weitermachen)
