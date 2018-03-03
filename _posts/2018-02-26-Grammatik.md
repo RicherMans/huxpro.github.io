@@ -4,9 +4,9 @@ title: Die Benutzung von "地" ("地"的用法和它容易犯的偏误)
 header-img: "img/post-bg-wall.jpg"
 ---
 
-汉语中一共有三种“的”：得,的，地。我今天会说明"得"的用法而举超多例子.
+汉语中一共有三种“de”：得,的，地。我今天会说明"地"的用法而举超多例子.
 
-# 必须用得
+# 必须用地
 
 1. 描写动作者的状态后面 (Hinter einem beschreibenden Verb)
 	* 他**激动地**抓住我
@@ -19,7 +19,7 @@ header-img: "img/post-bg-wall.jpg"
 	* **渐渐**地，他变了
 
 
-# 可不可用得
+# 可不可地得
 
 1. 数量短语重叠作状语 (phrase wird wiederholt)
     * 人家一趟一趟地跑
@@ -36,7 +36,7 @@ header-img: "img/post-bg-wall.jpg"
 	* 脑子**轰地**乱了
 	* 有短信来了，手机**滴滴**响
 
-# 不能用得
+# 不能用地
 
 1. "很难，不容易，不难，容易"　后
     * 冬天人们很容易感冒
