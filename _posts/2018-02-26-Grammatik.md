@@ -19,7 +19,7 @@ header-img: "img/post-bg-wall.jpg"
 	* **渐渐**地，他变了
 
 
-# 可不可地得
+# 可不可用地
 
 1. 数量短语重叠作状语 (phrase wird wiederholt)
     * 人家一趟一趟地跑
