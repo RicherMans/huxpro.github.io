@@ -18,4 +18,4 @@ Beispiele:
 | 虽然年轻，但他很有能力           | 虽然是年轻，但他很有能力           |
 
 
-Deshalb sind auch Saetze wie "她是很漂亮" absolut falsch und ausschliesslich von Auslaendern gesprochen.
+Deshalb sind auch Saetze wie "她是很漂亮" absolut falsch und ausschliesslich von Auslaendern gesprochen. Zusaetlich, ist der gebrauch von “很" in dem zweiten Beispielsatz noetig, bedeutet jedoch nicht das "Mein bruder sehr gross ist". 

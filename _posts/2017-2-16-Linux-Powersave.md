@@ -147,9 +147,4 @@ If after booting and running:
 ```
 dmesg | grep aer
 ```
-Lots of messages appear at the startup and fill up the log significantly, the error messages can be disabled by passing an additional kernel parameter to `/etc/default/grub` :
-
-```
-pci=noaer
-```
-
+Lots of messages appear at the startup and fill up the log significantly, the error messages can be disabled by setting in the BIOS the option `fastboot` to `through` [according to comment #76](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1521173)
