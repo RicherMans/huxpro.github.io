@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "了"和"的"的分析
+title:  了和的的分析
 header-img: "img/post-bg-wall.jpg"
 ---
 
